@@ -1,0 +1,23 @@
+.slider-container {
+  background-color: transparent;
+  padding: 40px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.planet-background {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  flex-direction: column;
+}
+
+.planet-background h1 {
+  color: #05acff;
+}
